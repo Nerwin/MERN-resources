@@ -12,12 +12,12 @@ node_modules
 {
   "parser": "babel-eslint",
 	"env": {
-		"node": true,
-		"es6": true
+    "node": true,
+    "es6": true
 	},
 	"rules": {
-		"no-unused-vars": "warn",
-		"no-extra-semi": "warn",
+    "no-unused-vars": "warn",
+    "no-extra-semi": "warn",
     "global-require": "warn",
     "block-spacing": "warn",
     "brace-style": ["warn", "1tbs", { "allowSingleLine": true }],
@@ -30,14 +30,14 @@ node_modules
     "func-call-spacing": "warn",
     "indent": ["error", 2],
     "no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
-		"semi": ["error", "always"],
+    "semi": ["error", "always"],
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
     "consistent-return": "off",
     "no-shadow": "off",
     "handle-callback-err": "off",
     "no-console": "off",
-		"no-cond-assign": "off"
+    "no-cond-assign": "off"
 	},
 	"extends": [
       "eslint:recommended",
@@ -60,12 +60,14 @@ node_modules
 + In the package.json
 
 ```json
-"devDependencies": {
-		"eslint": "^4.18.0",
+{
+  "devDependencies": {
+    "eslint": "^4.18.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-security": "^1.4.0",
-	}
+  }
+}
 ```
